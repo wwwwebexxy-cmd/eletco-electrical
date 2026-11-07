@@ -45,13 +45,23 @@ export function WireframeHero() {
 
       {/* Right Image */}
       <image
-        href="/assets/eletco-switchgear.png"
+        href="/assets/eletco-hero-industry.png"
         x="400"
         y="0"
         width="608"
         height="352"
         preserveAspectRatio="xMidYMid slice"
         clipPath="url(#right-clip)"
+      />
+
+      {/* dark brand filter keeps the hero imagery readable with the ELETCO palette */}
+      <rect
+        x="0"
+        y="0"
+        width="1008"
+        height={SEPARATOR_Y}
+        fill="#111820"
+        opacity="0.3"
       />
 
       {/* central chevron band */}
