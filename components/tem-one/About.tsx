@@ -16,14 +16,14 @@ export function AboutSection() {
           <div className="about-images">
             <div className="about-img about-img-1">
               <img
-                src="/assets/eletco-hero.png"
+                src="/assets/eletco-hero.webp"
                 alt="ELETCO electrical products showroom"
                 className="about-real-img"
               />
             </div>
             <div className="about-img about-img-2">
               <img
-                src="/assets/eletco-switchgear.png"
+                src="/assets/eletco-switchgear.webp"
                 alt="Electrical switchgear and distribution products"
                 className="about-real-img"
               />

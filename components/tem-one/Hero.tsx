@@ -39,7 +39,7 @@ export function WireframeHero() {
 
       {/* Left Image */}
       <image
-        href="/assets/eletco-hero.png"
+        href="/assets/eletco-hero.webp"
         x="0"
         y="0"
         width="600"
@@ -50,7 +50,7 @@ export function WireframeHero() {
 
       {/* Right Image */}
       <image
-        href="/assets/eletco-hero-industry.png"
+        href="/assets/eletco-hero-industry.webp"
         x="400"
         y="0"
         width="608"

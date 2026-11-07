@@ -4,8 +4,8 @@
   background-color: var(--ink);
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
-    url("/assets/eletco-hero.png"),
-    url("/assets/eletco-hero-industry.png");
+    url("/assets/eletco-hero.webp"),
+    url("/assets/eletco-hero-industry.webp");
   background-position: center top, left top, right top;
   background-repeat: no-repeat;
   background-size: cover, 55% 100%, 55% 100%;

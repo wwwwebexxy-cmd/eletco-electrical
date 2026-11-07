@@ -8,7 +8,7 @@ export function Footer() {
           <div className="footer-brand">
             <img
               className="footer-logo"
-              src="/assets/eletco-logo.jpg"
+              src="/assets/eletco-logo.webp"
               alt="ELETCO logo"
             />
             <p className="footer-brand-title">

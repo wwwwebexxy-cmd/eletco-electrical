@@ -10,7 +10,7 @@ export function WireframeHeader() {
     <header className="header">
       <div className="header-content">
         <a className="header-brand" href="#hero" aria-label="ELETCO home">
-          <img src="/assets/eletco-logo.jpg" alt="ELETCO logo" />
+          <img src="/assets/eletco-logo.webp" alt="ELETCO logo" />
           <span className="header-title">
             ELETCO ELECTRICAL SWITCHGEAR TRADING LLC
           </span>

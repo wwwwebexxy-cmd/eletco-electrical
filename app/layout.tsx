@@ -13,6 +13,11 @@ export const metadata: Metadata = {
   title: "ELETCO Electrical Switchgear Trading LLC",
   description:
     "ELETCO Electrical Switchgear Trading LLC supplies electrical products, switchgear, power tools, lighting, building materials, safety items, and industrial solutions across the UAE.",
+  icons: {
+    icon: "/assets/eletco-logo.webp",
+    shortcut: "/assets/eletco-logo.webp",
+    apple: "/assets/eletco-logo.webp",
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

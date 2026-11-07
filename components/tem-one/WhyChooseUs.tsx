@@ -12,10 +12,10 @@ export function WhyChooseUsSection() {
         <ScrollReveal className="wcu-grid-wrapper" variant="fade-right">
           <div className="wcu-main-grid">
             {[
-              "/assets/eletco-switchgear.png",
-              "/assets/eletco-power-tools.png",
-              "/assets/eletco-lighting-materials.png",
-              "/assets/eletco-safety-hardware.png",
+              "/assets/eletco-switchgear.webp",
+              "/assets/eletco-power-tools.webp",
+              "/assets/eletco-lighting-materials.webp",
+              "/assets/eletco-safety-hardware.webp",
             ].map((src, i) => (
               <div key={i} className="wcu-grid-item">
                 <img
