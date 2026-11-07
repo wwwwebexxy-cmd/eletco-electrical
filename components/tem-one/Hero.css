@@ -102,6 +102,60 @@
   }
 }
 
+/* Keep the existing SVG composition, but increase copy size where the full
+   viewBox would otherwise make the text unreadably small on narrow screens. */
+@media (max-width: 1919px) {
+  .hero-section {
+    padding-top: clamp(0px, calc(268.8px - 14vw), 4.75rem);
+  }
+}
+
+@media (max-width: 479px) {
+  .hero-copy-kicker {
+    font-size: 28px;
+    letter-spacing: 2px;
+  }
+
+  .hero-copy-title {
+    font-size: 50px;
+    letter-spacing: 0;
+  }
+
+  .hero-copy-rule {
+    stroke-width: 7;
+  }
+
+  .hero-copy-meta {
+    font-size: 24px;
+    letter-spacing: 1px;
+  }
+
+  .hero-copy-description {
+    font-size: 24px;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+  .hero-copy-kicker {
+    font-size: 18px;
+    letter-spacing: 2px;
+  }
+
+  .hero-copy-title {
+    font-size: 36px;
+    letter-spacing: 0;
+  }
+
+  .hero-copy-meta {
+    font-size: 16px;
+    letter-spacing: 1.2px;
+  }
+
+  .hero-copy-description {
+    font-size: 17px;
+  }
+}
+
 @media (min-width: 1920px) {
   .hero-svg {
     max-width: 1920px;
