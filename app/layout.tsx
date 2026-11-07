@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Noto_Sans_Malayalam } from "next/font/google";
 import "./globals.css";
-import FloatingBackButton from "@/components/FloatingBackButton";
 
 const malayalam = Noto_Sans_Malayalam({
   subsets: ["malayalam"],
@@ -18,8 +17,8 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <div className={`h-full antialiased ${malayalam.variable}`}>
-      
+    <html lang="en" className={`h-full antialiased ${malayalam.variable}`}>
+      <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
           rel="preconnect"
@@ -30,12 +29,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
           rel="stylesheet"
         />
-      
-      <div className="min-h-full flex flex-col">
-        {children}
-        <FloatingBackButton />
-      </div>
-    </div>
+      </head>
+      <body className="min-h-full flex flex-col">{children}</body>
+    </html>
   );
 }
 
