@@ -22,6 +22,11 @@ export function WireframeHero() {
         </clipPath>
       </defs>
 
+      <title>ELETCO Electrical Switchgear Trading LLC</title>
+      <desc>
+        Powering Your World with electrical and industrial solutions across the UAE.
+      </desc>
+
       {/* faint full-width divider under the hero */}
       <line
         x1={0}
@@ -63,6 +68,34 @@ export function WireframeHero() {
         fill="#111820"
         opacity="0.3"
       />
+
+      {/* profile content from the ELETCO company presentation */}
+      <g className="hero-copy">
+        <rect
+          className="hero-copy-panel"
+          x="30"
+          y="36"
+          width="430"
+          height="230"
+          rx="12"
+        />
+        <text className="hero-copy-kicker" x="58" y="72">
+          POWERING YOUR WORLD
+        </text>
+        <text className="hero-copy-title" x="58" y="122">
+          ELETCO ELECTRICAL
+        </text>
+        <text className="hero-copy-title" x="58" y="158">
+          SWITCHGEAR TRADING LLC
+        </text>
+        <line className="hero-copy-rule" x1="58" y1="178" x2="260" y2="178" />
+        <text className="hero-copy-meta" x="58" y="207">
+          QUALITY  |  RELIABILITY  |  SOLUTIONS
+        </text>
+        <text className="hero-copy-description" x="58" y="237">
+          Electrical and industrial solutions across the UAE
+        </text>
+      </g>
 
       {/* central chevron band */}
       <path

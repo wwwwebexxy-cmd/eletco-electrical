@@ -15,6 +15,56 @@
   background: var(--ink);
 }
 
+.hero-copy {
+  pointer-events: none;
+}
+
+.hero-copy-panel {
+  fill: var(--ink);
+  opacity: 0.86;
+  stroke: var(--accent);
+  stroke-width: 2;
+}
+
+.hero-copy-kicker,
+.hero-copy-title,
+.hero-copy-meta,
+.hero-copy-description {
+  fill: var(--surface);
+  font-family: "Plus Jakarta Sans", "Inter", sans-serif;
+}
+
+.hero-copy-kicker {
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+
+.hero-copy-title {
+  font-size: 27px;
+  font-weight: 800;
+  letter-spacing: 0.4px;
+}
+
+.hero-copy-rule {
+  stroke: var(--accent);
+  stroke-width: 5;
+  stroke-linecap: round;
+}
+
+.hero-copy-meta {
+  fill: #ffccd1;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1.8px;
+}
+
+.hero-copy-description {
+  fill: rgba(255, 255, 255, 0.86);
+  font-size: 12px;
+  font-weight: 500;
+}
+
 .hero-reveal .hero-svg {
   animation: hero-settle 1.1s 120ms cubic-bezier(0.22, 1, 0.36, 1) both;
 }
