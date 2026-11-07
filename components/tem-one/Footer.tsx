@@ -5,9 +5,9 @@ export function Footer() {
     <footer className="footer">
       <div className="footer-container">
         <div className="footer-grid">
-          {/* Demo 1 */}
           <div className="footer-brand">
-            <p className="footer-brand-title">Demo 1</p>
+            <p className="footer-brand-title">ELETCO</p>
+            <p className="footer-brand-subtitle">Electrical Switchgear Trading LLC</p>
           </div>
 
           {/* Quick Link */}
@@ -18,8 +18,8 @@ export function Footer() {
                 { label: "Home", href: "#hero" },
                 { label: "About us", href: "#about" },
                 { label: "Products", href: "#products" },
-                { label: "service", href: "#services" },
-                { label: "contact", href: "#contact" },
+                { label: "Services", href: "#services" },
+                { label: "Contact", href: "#contact" },
               ].map((l) => (
                 <li key={l.label}>
                   <a href={l.href} className="footer-link">
@@ -30,19 +30,18 @@ export function Footer() {
             </ul>
           </div>
 
-          {/* Associate company */}
           <div className="footer-company">
-            <p className="footer-company-title">OUR Associate company</p>
+            <p className="footer-company-title">UAE Electrical Solutions</p>
             <p className="footer-company-desc">
-              nm example
+              Musaffah M40, Abu Dhabi, UAE
               <br />
-              comm
+              info@eletcouae.com
             </p>
           </div>
         </div>
 
         <div className="footer-copyright">
-          @ copyright Reserved
+          © {new Date().getFullYear()} ELETCO Electrical Switchgear Trading LLC. All rights reserved.
         </div>
       </div>
     </footer>

@@ -9,10 +9,10 @@ export function WireframeHeader() {
   return (
     <header className="header">
       <div className="header-content">
-        {/* Large heading */}
-        <h1 className="header-title">
-          Demo 1
-        </h1>
+        <a className="header-brand" href="#hero" aria-label="ELETCO home">
+          <img src="/assets/eletco-logo.jpg" alt="ELETCO logo" />
+          <span className="header-title">ELETCO</span>
+        </a>
 
         {/* Mobile Toggle Button */}
         <button 
@@ -32,8 +32,9 @@ export function WireframeHeader() {
           <a href="#hero" onClick={() => setIsOpen(false)}>Home</a>
           <a href="#about" onClick={() => setIsOpen(false)}>About us</a>
           <a href="#products" onClick={() => setIsOpen(false)}>Products</a>
-          <a href="#services" onClick={() => setIsOpen(false)}>service</a>
-          <a href="#contact" onClick={() => setIsOpen(false)}>contact</a>
+          <a href="#services" onClick={() => setIsOpen(false)}>Services</a>
+          <a href="#why-us" onClick={() => setIsOpen(false)}>Why ELETCO</a>
+          <a href="#contact" onClick={() => setIsOpen(false)}>Contact</a>
         </nav>
       </div>
     </header>

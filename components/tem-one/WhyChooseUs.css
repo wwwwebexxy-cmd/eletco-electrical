@@ -1,6 +1,7 @@
 /* Why Choose Us */
 .wcu-section {
   border-bottom: 1px solid var(--border-light);
+  background: var(--surface);
 }
 
 .wcu-container {

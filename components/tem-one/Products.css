@@ -4,12 +4,12 @@
   padding: 6rem 0;
   overflow: hidden;
   /* Unique background check design */
-  background-color: var(--bg-primary, #ffffff);
+  background-color: var(--surface-soft);
   background-image:
-    linear-gradient(rgba(79, 70, 229, 0.03) 2px, transparent 2px),
-    linear-gradient(90deg, rgba(79, 70, 229, 0.03) 2px, transparent 2px),
-    linear-gradient(rgba(79, 70, 229, 0.02) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(79, 70, 229, 0.02) 1px, transparent 1px);
+    linear-gradient(rgba(226, 27, 45, 0.04) 2px, transparent 2px),
+    linear-gradient(90deg, rgba(226, 27, 45, 0.04) 2px, transparent 2px),
+    linear-gradient(rgba(17, 24, 32, 0.025) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(17, 24, 32, 0.025) 1px, transparent 1px);
   background-size: 100px 100px, 100px 100px, 20px 20px, 20px 20px;
   background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
 }
@@ -29,7 +29,7 @@
 
 .products-subtitle {
   font-size: 1.125rem;
-  color: var(--text-secondary);
+  color: var(--ink-70);
   max-width: 600px;
   margin: 1rem auto 0;
 }
@@ -108,20 +108,20 @@
 }
 
 .glass-tint-blue {
-  background: rgba(56, 189, 248, 0.15);
-  border-color: rgba(56, 189, 248, 0.6);
-  box-shadow: inset 0 0 30px rgba(56, 189, 248, 0.3);
+  background: rgba(226, 27, 45, 0.15);
+  border-color: rgba(226, 27, 45, 0.6);
+  box-shadow: inset 0 0 30px rgba(226, 27, 45, 0.3);
 }
 
 .glass-tint-purple {
-  background: rgba(168, 85, 247, 0.15);
-  border-color: rgba(168, 85, 247, 0.6);
-  box-shadow: inset 0 0 30px rgba(168, 85, 247, 0.3);
+  background: rgba(17, 24, 32, 0.15);
+  border-color: rgba(17, 24, 32, 0.6);
+  box-shadow: inset 0 0 30px rgba(17, 24, 32, 0.3);
 }
 
 .glass-body {
-  background: #1f2937;
-  border: 4px solid #374151;
+  background: #111820;
+  border: 4px solid #303943;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
 }
 
@@ -245,7 +245,7 @@
   font-size: 1.5rem;
   background: transparent;
   border-radius: 50%;
-  color: var(--text-primary);
+  color: var(--ink);
   margin-bottom: 0.5rem;
   z-index: 1;
   position: relative;
@@ -259,18 +259,29 @@
 .product-info h3 {
   font-size: 0.875rem;
   font-weight: 700;
-  color: var(--text-primary);
+  color: var(--ink);
   margin: 0 0 0.25rem 0;
   line-height: 1.2;
 }
 
 .product-info p {
   font-size: 0.75rem;
-  color: var(--text-secondary);
+  color: var(--ink-70);
   margin: 0;
   line-height: 1.4;
   display: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
+}
+
+.product-card-image {
+  width: 72px;
+  height: 42px;
+  object-fit: cover;
+  border-radius: 0.35rem;
+  margin-bottom: 0.4rem;
+  position: relative;
+  z-index: 1;
+  border: 1px solid var(--accent);
 }

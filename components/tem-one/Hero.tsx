@@ -11,7 +11,7 @@ export function WireframeHero() {
       className="hero-svg"
       preserveAspectRatio="xMidYMid slice"
       role="img"
-      aria-label="Hero banner with two images split by a diagonal line"
+      aria-label="ELETCO electrical products and UAE industrial solutions"
     >
       <defs>
         <clipPath id="left-clip">
@@ -28,13 +28,13 @@ export function WireframeHero() {
         y1={SEPARATOR_Y}
         x2={1008}
         y2={SEPARATOR_Y}
-        stroke="#EF8354"
+        stroke="#E21B2D"
         strokeWidth={2}
       />
 
       {/* Left Image */}
       <image
-        href="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1200&q=80"
+        href="/assets/eletco-hero.png"
         x="0"
         y="0"
         width="600"
@@ -45,7 +45,7 @@ export function WireframeHero() {
 
       {/* Right Image */}
       <image
-        href="https://images.unsplash.com/photo-1553877522-43269d4ea984?auto=format&fit=crop&w=1200&q=80"
+        href="/assets/eletco-switchgear.png"
         x="400"
         y="0"
         width="608"
@@ -67,7 +67,7 @@ export function WireframeHero() {
         className="hero-band hero-band-highlight"
         d={BAND_PATH}
         fill="none"
-        stroke="#F7F9FC"
+        stroke="#FFFFFF"
         strokeWidth={2}
         strokeLinejoin="miter"
       />

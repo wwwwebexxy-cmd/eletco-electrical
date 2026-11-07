@@ -1,6 +1,7 @@
 /* Hero */
 .hero-section {
   display: block;
+  background: var(--ink);
 }
 
 .hero-reveal {
@@ -11,6 +12,7 @@
   display: block;
   width: 100%;
   height: clamp(25rem, 80vw, 36rem);
+  background: var(--ink);
 }
 
 .hero-reveal .hero-svg {

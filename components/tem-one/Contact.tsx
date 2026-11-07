@@ -39,7 +39,7 @@ export function ContactSection() {
                   </svg>
                   <span className="email-label">EMAIL</span>
                 </div>
-                <div className="email-text">example@gmail.com</div>
+                <a className="email-text" href="mailto:info@eletcouae.com">info@eletcouae.com</a>
               </div>
 
               {/* find us location row */}
@@ -66,7 +66,7 @@ export function ContactSection() {
                   </svg>
                   <span className="email-label">FIND US</span>
                 </div>
-                <div className="email-text">Kerala, India</div>
+                <div className="email-text">Musaffah M40, Abu Dhabi, UAE</div>
               </div>
 
               <div className="contact-buttons-row">
@@ -136,7 +136,7 @@ export function ContactSection() {
                     />
                     <circle cx="16.5" cy="7.5" r="0.5" fill="currentColor" />
                   </svg>
-                  <span className="contact-card-title">Instagram</span>
+                  <span className="contact-card-title">Website</span>
                 </div>
               </div>
             </div>
@@ -151,11 +151,11 @@ export function ContactSection() {
                   aria-hidden="true"
                   xmlns="http://www.w3.org/2000/svg"
                 >
-                  <rect width="400" height="300" fill="#F7F9FC" />
+                  <rect width="400" height="300" fill="#F4F5F6" />
                   <path
                     d="M -20 230 C 60 222 90 150 180 138 C 240 130 300 80 330 -20"
                     fill="none"
-                    stroke="#0B2545"
+                    stroke="#111820"
                     strokeWidth="26"
                     strokeLinecap="round"
                     opacity="0.22"
@@ -163,7 +163,7 @@ export function ContactSection() {
                   <path
                     d="M -20 230 C 60 222 90 150 180 138 C 240 130 300 80 330 -20"
                     fill="none"
-                    stroke="#EF8354"
+                    stroke="#E21B2D"
                     strokeWidth="12"
                     strokeLinecap="round"
                   />
@@ -172,7 +172,7 @@ export function ContactSection() {
                     cy="62"
                     rx="52"
                     ry="30"
-                    fill="#EF8354"
+                    fill="#E21B2D"
                     opacity="0.35"
                   />
                   <ellipse
@@ -180,7 +180,7 @@ export function ContactSection() {
                     cy="200"
                     rx="60"
                     ry="34"
-                    fill="#EF8354"
+                    fill="#E21B2D"
                     opacity="0.35"
                     transform="rotate(-10 330 200)"
                   />
@@ -189,7 +189,7 @@ export function ContactSection() {
                     cy="266"
                     rx="46"
                     ry="24"
-                    fill="#EF8354"
+                    fill="#E21B2D"
                     opacity="0.3"
                   />
                   <ellipse
@@ -197,7 +197,7 @@ export function ContactSection() {
                     cy="150"
                     rx="28"
                     ry="16"
-                    fill="#EF8354"
+                    fill="#E21B2D"
                     opacity="0.25"
                   />
                   <rect
@@ -206,7 +206,7 @@ export function ContactSection() {
                     width="34"
                     height="24"
                     rx="3"
-                    fill="#0B2545"
+                    fill="#111820"
                     opacity="0.12"
                   />
                   <rect
@@ -215,7 +215,7 @@ export function ContactSection() {
                     width="26"
                     height="22"
                     rx="3"
-                    fill="#0B2545"
+                    fill="#111820"
                     opacity="0.12"
                   />
                   <rect
@@ -224,7 +224,7 @@ export function ContactSection() {
                     width="40"
                     height="26"
                     rx="3"
-                    fill="#0B2545"
+                    fill="#111820"
                     opacity="0.12"
                   />
                   <rect
@@ -233,7 +233,7 @@ export function ContactSection() {
                     width="24"
                     height="30"
                     rx="3"
-                    fill="#0B2545"
+                    fill="#111820"
                     opacity="0.12"
                   />
                   <rect
@@ -242,7 +242,7 @@ export function ContactSection() {
                     width="30"
                     height="20"
                     rx="3"
-                    fill="#0B2545"
+                    fill="#111820"
                     opacity="0.12"
                   />
                   {[
@@ -260,7 +260,7 @@ export function ContactSection() {
                         y1={l[1]}
                         x2={l[2]}
                         y2={l[3]}
-                        stroke="#0B2545"
+                        stroke="#111820"
                         strokeWidth="13"
                         opacity="0.2"
                       />
@@ -269,7 +269,7 @@ export function ContactSection() {
                         y1={l[1]}
                         x2={l[2]}
                         y2={l[3]}
-                        stroke="#F7F9FC"
+                        stroke="#FFFFFF"
                         strokeWidth="9"
                       />
                     </g>
@@ -279,7 +279,7 @@ export function ContactSection() {
                     y1="300"
                     x2="400"
                     y2="20"
-                    stroke="#0B2545"
+                    stroke="#111820"
                     strokeWidth="13"
                     opacity="0.2"
                   />
@@ -288,7 +288,7 @@ export function ContactSection() {
                     y1="300"
                     x2="400"
                     y2="20"
-                    stroke="#F7F9FC"
+                    stroke="#FFFFFF"
                     strokeWidth="9"
                   />
                   <line
@@ -296,7 +296,7 @@ export function ContactSection() {
                     y1="300"
                     x2="400"
                     y2="230"
-                    stroke="#0B2545"
+                    stroke="#111820"
                     strokeWidth="13"
                     opacity="0.2"
                   />
@@ -305,7 +305,7 @@ export function ContactSection() {
                     y1="300"
                     x2="400"
                     y2="230"
-                    stroke="#F7F9FC"
+                    stroke="#FFFFFF"
                     strokeWidth="9"
                   />
                 </svg>

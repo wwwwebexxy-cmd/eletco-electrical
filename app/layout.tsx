@@ -10,9 +10,9 @@ const malayalam = Noto_Sans_Malayalam({
 });
 
 export const metadata: Metadata = {
-  title: "Demo 1 - Modern Digital Solutions & Strategy",
+  title: "ELETCO Electrical Switchgear Trading LLC",
   description:
-    "Unlocking market potential through targeted keyword growth, strategic positioning, and end-to-end operational intelligence. Demo 1 combines engineering rigor with high-velocity creative problem solving.",
+    "ELETCO Electrical Switchgear Trading LLC supplies electrical products, switchgear, power tools, lighting, building materials, safety items, and industrial solutions across the UAE.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

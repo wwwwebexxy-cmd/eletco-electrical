@@ -8,7 +8,7 @@ export function AboutSection() {
       <div className="about-container">
         {/* watermark, top-right */}
         <div className="watermark">
-          <p className="watermark-text">Demo</p>
+          <p className="watermark-text">ELETCO</p>
         </div>
 
         <ScrollReveal className="about-grid" variant="fade-up" duration="slow">
@@ -16,15 +16,15 @@ export function AboutSection() {
           <div className="about-images">
             <div className="about-img about-img-1">
               <img
-                src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&w=600&q=80"
-                alt="Team collaboration"
+                src="/assets/eletco-hero.png"
+                alt="ELETCO electrical products showroom"
                 className="about-real-img"
               />
             </div>
             <div className="about-img about-img-2">
               <img
-                src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=600&q=80"
-                alt="Creative workspace"
+                src="/assets/eletco-switchgear.png"
+                alt="Electrical switchgear and distribution products"
                 className="about-real-img"
               />
             </div>
@@ -32,14 +32,15 @@ export function AboutSection() {
 
           {/* Right Side: Content */}
           <div className="about-content">
-            <SectionTitle>About US</SectionTitle>
+            <SectionTitle>About ELETCO</SectionTitle>
             <p className="about-description">
-              Welcome to our platform. We specialize in delivering high-quality
-              solutions tailored to your specific needs. Our expert team
-              combines creativity and technology to build modern, scalable, and
-              beautifully designed web experiences.
+              ELETCO Electrical Switchgear Trading LLC is a trusted and reliable
+              supplier of high-quality electrical products, industrial solutions,
+              and building materials in the UAE. We support construction,
+              industrial, commercial, and residential projects with dependable
+              products, responsive service, and expert support.
             </p>
-            <button className="about-btn">Discover More</button>
+            <a className="about-btn" href="#products">Explore our range</a>
           </div>
         </ScrollReveal>
       </div>

@@ -1,6 +1,8 @@
 /* Footer */
 .footer {
   color: var(--ink);
+  background: var(--surface);
+  border-top: 4px solid var(--accent);
 }
 
 .footer-container {
@@ -45,6 +47,15 @@
   font-size: 1.5rem;
   font-weight: 800;
   letter-spacing: -0.025em;
+  color: var(--accent);
+}
+
+.footer-brand-subtitle {
+  max-width: 220px;
+  margin-top: 0.5rem;
+  color: var(--ink-70);
+  font-size: 0.8rem;
+  line-height: 1.5;
 }
 
 .footer-links {

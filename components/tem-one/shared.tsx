@@ -1,7 +1,7 @@
 import type { ReactNode } from "react";
 import "./shared.css";
 
-export const INK = "#0B2545";
+export const INK = "#111820";
 
 export function SketchArrow({
   x1,

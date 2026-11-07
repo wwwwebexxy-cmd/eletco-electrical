@@ -5,42 +5,36 @@ import "./Services.css";
 const serviceGroups = [
   [
     {
-      label: "Web Design",
-      image:
-        "https://images.unsplash.com/photo-1547658719-da2b51169166?auto=format&fit=crop&w=800&q=85",
-      alt: "Laptop displaying a web design layout",
+      label: "Switchgear & Distribution",
+      image: "/assets/eletco-switchgear.png",
+      alt: "Electrical switchgear and distribution equipment",
     },
     {
-      label: "Brand Strategy",
-      image:
-        "https://images.unsplash.com/photo-1558655146-d09347e92766?auto=format&fit=crop&w=800&q=85",
-      alt: "Creative brand design materials on a desk",
+      label: "Cables & Wiring",
+      image: "/assets/eletco-lighting-materials.png",
+      alt: "Electrical cables and building materials",
     },
     {
-      label: "UI Development",
-      image:
-        "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=800&q=85",
-      alt: "Code editor showing a web interface",
+      label: "Industrial Controls",
+      image: "/assets/eletco-switchgear.png",
+      alt: "Industrial switchgear and control products",
     },
   ],
   [
     {
-      label: "Creative Direction",
-      image:
-        "https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=800&q=85",
-      alt: "Team collaborating around a creative workspace",
+      label: "Lighting & Energy",
+      image: "/assets/eletco-lighting-materials.png",
+      alt: "LED lighting products",
     },
     {
-      label: "Digital Strategy",
-      image:
-        "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=85",
-      alt: "Analytics dashboard on a laptop screen",
+      label: "Building Materials",
+      image: "/assets/eletco-lighting-materials.png",
+      alt: "PVC pipes and electrical building materials",
     },
     {
-      label: "Content Systems",
-      image:
-        "https://images.unsplash.com/photo-1499750310107-5fef28a66643?auto=format&fit=crop&w=800&q=85",
-      alt: "Notebook and laptop prepared for content planning",
+      label: "Safety & Hardware",
+      image: "/assets/eletco-safety-hardware.png",
+      alt: "Personal protective equipment and hardware",
     },
   ],
 ] as const;
@@ -51,7 +45,7 @@ export function ServicesSection() {
       <div className="services-container">
         {/* heading row with the annotation on the right */}
         <div className="services-header">
-          <SectionTitle>my services</SectionTitle>
+          <SectionTitle>Our Solutions</SectionTitle>
         </div>
 
         {/* stacked card swapping animation */}

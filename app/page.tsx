@@ -1,5 +1,5 @@
 /* ================================================================== */
-/*  Demo 1 — full wireframe recreation of the reference image         */
+/*  ELETCO company profile — existing wireframe structure preserved    */
 /*  Hero drawn on a 1008×406 grid mapped from the reference.          */
 /* ================================================================== */
 
