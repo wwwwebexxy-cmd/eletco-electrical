@@ -11,7 +11,9 @@ export function WireframeHeader() {
       <div className="header-content">
         <a className="header-brand" href="#hero" aria-label="ELETCO home">
           <img src="/assets/eletco-logo.jpg" alt="ELETCO logo" />
-          <span className="header-title">ELETCO</span>
+          <span className="header-title">
+            ELETCO ELECTRICAL SWITCHGEAR TRADING LLC
+          </span>
         </a>
 
         {/* Mobile Toggle Button */}
