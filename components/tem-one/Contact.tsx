@@ -66,7 +66,14 @@ export function ContactSection() {
                   </svg>
                   <span className="email-label">FIND US</span>
                 </div>
-                <div className="email-text">Musaffah M40, Abu Dhabi, UAE</div>
+                <a
+                  className="email-text"
+                  href="https://maps.google.com?ftid=0x3e5e4147c08f98d3:0x2449de7ab1c8663e&entry=gps&shh=CAE&lucs=,94297699,94231188,100821555,47071704,94218641,94282134,100835694,94286869,100820247,100822504,100838877,121816461&g_st=iwb"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Musaffah M40, Abu Dhabi, UAE
+                </a>
               </div>
 
               <div className="contact-buttons-row">
