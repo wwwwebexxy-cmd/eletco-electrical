@@ -1,7 +1,14 @@
 /* Hero */
 .hero-section {
   display: block;
-  background: var(--ink);
+  background-color: var(--ink);
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+    url("/assets/eletco-hero.png"),
+    url("/assets/eletco-hero-industry.png");
+  background-position: center top, left top, right top;
+  background-repeat: no-repeat;
+  background-size: cover, 55% 100%, 55% 100%;
   width: 100%;
   overflow: hidden;
 }
