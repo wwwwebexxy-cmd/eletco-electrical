@@ -71,7 +71,7 @@ export function ContactSection() {
 
               <div className="contact-buttons-row">
                 {/* CALL US */}
-                <div className="contact-card">
+                <a className="contact-card" href="tel:+971558455153">
                   <svg
                     className="contact-icon"
                     fill="none"
@@ -87,10 +87,16 @@ export function ContactSection() {
                     />
                   </svg>
                   <span className="contact-card-title">CALL US</span>
-                </div>
+                  <span className="contact-card-number">+971558455153</span>
+                </a>
 
                 {/* WhatsApp */}
-                <div className="contact-card">
+                <a
+                  className="contact-card"
+                  href="https://wa.me/971566715281"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <svg
                     className="contact-icon"
                     fill="none"
@@ -106,7 +112,8 @@ export function ContactSection() {
                     />
                   </svg>
                   <span className="contact-card-title">WhatsApp</span>
-                </div>
+                  <span className="contact-card-number">+971 56 671 5281</span>
+                </a>
 
                 {/* Instagram */}
                 <a
