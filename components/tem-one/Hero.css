@@ -2,6 +2,8 @@
 .hero-section {
   display: block;
   background: var(--ink);
+  width: 100%;
+  overflow: hidden;
 }
 
 .hero-reveal {
@@ -11,7 +13,9 @@
 .hero-svg {
   display: block;
   width: 100%;
-  height: clamp(25rem, 80vw, 36rem);
+  height: auto;
+  min-height: 0;
+  aspect-ratio: 1008 / 406;
   background: var(--ink);
 }
 
@@ -98,8 +102,9 @@
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1920px) {
   .hero-svg {
-    height: auto;
+    max-width: 1920px;
+    margin-inline: auto;
   }
 }
