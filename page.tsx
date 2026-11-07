@@ -4,15 +4,16 @@
 /* ================================================================== */
 
 import "./page.css";
-import { WireframeHeader } from "../components/Header";
-import { WireframeHero } from "../components/Hero";
-import { AboutSection } from "../components/About";
-import { ServicesSection } from "../components/Services";
-import { WhyChooseUsSection } from "../components/WhyChooseUs";
-import { ContactSection } from "../components/Contact";
-import { Footer } from "../components/Footer";
-import { TopButton } from "../components/shared";
-import { ScrollReveal } from "../components/ScrollReveal";
+import { WireframeHeader } from "@/components/tem-one/Header";
+import { WireframeHero } from "@/components/tem-one/Hero";
+import { AboutSection } from "@/components/tem-one/About";
+import { ProductsSection } from "@/components/tem-one/Products";
+import { ServicesSection } from "@/components/tem-one/Services";
+import { WhyChooseUsSection } from "@/components/tem-one/WhyChooseUs";
+import { ContactSection } from "@/components/tem-one/Contact";
+import { Footer } from "@/components/tem-one/Footer";
+import { TopButton } from "@/components/tem-one/shared";
+import { ScrollReveal } from "@/components/tem-one/ScrollReveal";
 
 /* ------------------------------------------------------------------ */
 /*  Page                                                               */
@@ -35,6 +36,7 @@ export default function HomePage() {
         </section>
 
         <AboutSection />
+        <ProductsSection />
         <ServicesSection />
         <WhyChooseUsSection />
         <ContactSection />
@@ -44,3 +46,4 @@ export default function HomePage() {
     </main>
   );
 }
+
