@@ -65,8 +65,8 @@ export function WireframeHero() {
         y="0"
         width="1008"
         height={SEPARATOR_Y}
-        fill="#111820"
-        opacity="0.3"
+        fill="#000000"
+        opacity="0.45"
       />
 
       {/* profile content from the ELETCO company presentation */}

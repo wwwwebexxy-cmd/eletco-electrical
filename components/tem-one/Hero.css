@@ -22,8 +22,7 @@
 .hero-copy-panel {
   fill: var(--ink);
   opacity: 0.86;
-  stroke: var(--accent);
-  stroke-width: 2;
+  stroke: none;
 }
 
 .hero-copy-kicker,
