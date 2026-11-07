@@ -6,6 +6,11 @@ export function Footer() {
       <div className="footer-container">
         <div className="footer-grid">
           <div className="footer-brand">
+            <img
+              className="footer-logo"
+              src="/assets/eletco-logo.jpg"
+              alt="ELETCO logo"
+            />
             <p className="footer-brand-title">ELETCO</p>
             <p className="footer-brand-subtitle">Electrical Switchgear Trading LLC</p>
           </div>

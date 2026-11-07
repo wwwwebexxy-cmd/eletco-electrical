@@ -109,7 +109,12 @@ export function ContactSection() {
                 </div>
 
                 {/* Instagram */}
-                <div className="contact-card">
+                <a
+                  className="contact-card"
+                  href="https://www.instagram.com/eletco_?psln=b2x4N3RhNnB4dWwz"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <svg
                     className="contact-icon"
                     fill="none"
@@ -136,8 +141,26 @@ export function ContactSection() {
                     />
                     <circle cx="16.5" cy="7.5" r="0.5" fill="currentColor" />
                   </svg>
-                  <span className="contact-card-title">Website</span>
-                </div>
+                  <span className="contact-card-title">Instagram</span>
+                </a>
+
+                {/* Facebook */}
+                <a
+                  className="contact-card"
+                  href="https://www.facebook.com/share/1GkSi4oVbf/?mibextid=wwXIfr"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <svg
+                    className="contact-icon"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    aria-hidden="true"
+                  >
+                    <path d="M14 8h3V4h-3c-2.76 0-5 2.24-5 5v3H6v4h3v4h4v-4h3l1-4h-4V9c0-.55.45-1 1-1Z" />
+                  </svg>
+                  <span className="contact-card-title">Facebook</span>
+                </a>
               </div>
             </div>
 

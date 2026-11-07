@@ -79,7 +79,7 @@
 
 @media (min-width: 640px) {
   .contact-buttons-row {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
   }
 }
 
@@ -96,10 +96,16 @@
   transition: background 0.2s;
   cursor: pointer;
   height: 100%;
+  text-decoration: none;
 }
 
 .contact-card:hover {
   background: var(--accent);
+}
+
+.contact-card:hover .contact-icon,
+.contact-card:hover .contact-card-title {
+  color: var(--surface);
 }
 
 .contact-icon {
