@@ -68,11 +68,11 @@ export function ContactSection() {
                 </div>
                 <a
                   className="email-text"
-                  href="https://maps.google.com?ftid=0x3e5e4147c08f98d3:0x2449de7ab1c8663e&entry=gps&shh=CAE&lucs=,94297699,94231188,100821555,47071704,94218641,94282134,100835694,94286869,100820247,100822504,100838877,121816461&g_st=iwb"
+                  href="https://www.google.com/maps/search/?api=1&query=ELETCO%20Electrical%20Switchgear%20Trading%20LLC%2C%20Mussafah%20M40%2C%20Abu%20Dhabi%2C%20United%20Arab%20Emirates"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  Musaffah M40, Abu Dhabi, UAE
+                  Mussafah M40, Abu Dhabi, UAE
                 </a>
               </div>
 
@@ -349,7 +349,7 @@ export function ContactSection() {
                 <iframe
                   className="map-iframe"
                   title="ELETCO location in Musaffah, Abu Dhabi"
-                  src="https://maps.google.com?ftid=0x3e5e4147c08f98d3:0x2449de7ab1c8663e&entry=gps&shh=CAE&lucs=,94297699,94231188,100821555,47071704,94218641,94282134,100835694,94286869,100820247,100822504,100838877,121816461&g_st=iwb&output=embed"
+                  src="https://www.google.com/maps?q=ELETCO%20Electrical%20Switchgear%20Trading%20LLC%2C%20Mussafah%20M40%2C%20Abu%20Dhabi%2C%20United%20Arab%20Emirates&output=embed"
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
                 />
