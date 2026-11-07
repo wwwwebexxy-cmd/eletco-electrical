@@ -11,8 +11,9 @@ export function Footer() {
               src="/assets/eletco-logo.jpg"
               alt="ELETCO logo"
             />
-            <p className="footer-brand-title">ELETCO</p>
-            <p className="footer-brand-subtitle">Electrical Switchgear Trading LLC</p>
+            <p className="footer-brand-title">
+              ELETCO ELECTRICAL SWITCHGEAR TRADING LLC
+            </p>
           </div>
 
           {/* Quick Link */}
