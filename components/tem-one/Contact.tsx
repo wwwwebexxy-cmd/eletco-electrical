@@ -346,6 +346,13 @@ export function ContactSection() {
                     strokeWidth="9"
                   />
                 </svg>
+                <iframe
+                  className="map-iframe"
+                  title="ELETCO location in Musaffah, Abu Dhabi"
+                  src="https://www.google.com/maps?ftid=0x3e5e4147c08f98d3:0x2449de7ab1c8663e&output=embed"
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                />
               </div>
             </div>
           </div>
