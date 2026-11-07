@@ -19,12 +19,6 @@
   pointer-events: none;
 }
 
-.hero-copy-panel {
-  fill: var(--ink);
-  opacity: 0.86;
-  stroke: none;
-}
-
 .hero-copy-kicker,
 .hero-copy-title,
 .hero-copy-meta,

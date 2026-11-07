@@ -71,14 +71,6 @@ export function WireframeHero() {
 
       {/* profile content from the ELETCO company presentation */}
       <g className="hero-copy">
-        <rect
-          className="hero-copy-panel"
-          x="30"
-          y="36"
-          width="430"
-          height="230"
-          rx="12"
-        />
         <text className="hero-copy-kicker" x="58" y="72">
           POWERING YOUR WORLD
         </text>
